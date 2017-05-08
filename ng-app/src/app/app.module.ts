@@ -21,6 +21,7 @@ import {CourseServerService} from './service/course-server.service';
 import {CourseRoutingModule} from './course/course-routing.module';
 import {LoginComponent} from './login/login.component';
 import {AuthenticationService} from './service/authentication.service';
+import {StudentRegisterComponent } from './students/register-student/register-student.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import {AuthenticationService} from './service/authentication.service';
     CourseListComponent,
     AddCourseComponent,
     ListCourseComponent,
-    LoginComponent
+    LoginComponent,
+    StudentRegisterComponent
   ],
   imports: [BrowserModule, FormsModule, HttpModule,
     StudentRoutingModule, CourseRoutingModule,AppRoutingModule],
